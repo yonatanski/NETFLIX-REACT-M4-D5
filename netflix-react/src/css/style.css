@@ -1,0 +1,138 @@
+* {
+  color: white;
+}
+body {
+  background-color: #141414;
+  color: white;
+}
+
+/* Nav Bar    */
+.nav-logo-img {
+  width: 200px;
+}
+.nav-avatar-img {
+  height: 28px;
+}
+
+/* Header  */
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+/* all styling copied from Vanilla Netflix project */
+nav-link {
+  color: rgb(202, 202, 202) !important;
+  font-size: small;
+}
+
+.active .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  width: 100px;
+}
+
+.nav-icons {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.navbar-toggler {
+  border-color: white;
+  /* color: white !important; */
+  background-color: rgb(248, 248, 248);
+}
+
+.avatar-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 7px;
+}
+
+.small-avatar-img {
+  height: 28px;
+}
+
+.dropdown-menu-dark {
+  background-color: rgb(82, 82, 82);
+}
+
+.dropdown-menu-dark a {
+  color: rgb(192, 192, 192);
+}
+
+.avatar-dropdown {
+  margin-left: -93px;
+  margin-top: 5px;
+}
+
+.genre-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgb(157, 157, 157);
+  width: 100px;
+  position: relative;
+  top: 4px;
+  border-radius: 2px;
+}
+
+.list-view {
+  display: flex;
+  align-items: center;
+}
+.list-view i {
+  border: 1px solid rgb(179, 179, 179);
+  padding: 2px 10px;
+}
+
+.movie-cover {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  width: 97%;
+  opacity: 0.6;
+}
+.movie-cover:hover {
+  transform: scale(1.04);
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.footer-icons {
+  color: #7f7f7f !important;
+  font-size: 25px;
+}
+
+#footer {
+  margin-top: 100px;
+}
+
+#footer ul {
+  padding: 0;
+}
+#footer ul li {
+  color: #7f7f7f;
+  font-size: small;
+  list-style: none;
+  margin-top: 12px;
+}
+
+.copyright {
+  font-size: small;
+  text-align: center;
+}
+
+.footer-btn {
+  border: 1px solid #7f7f7f;
+  background-color: transparent;
+  color: #7f7f7f;
+  font-size: small;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+#settings {
+  color: #7f7f7f;
+}
