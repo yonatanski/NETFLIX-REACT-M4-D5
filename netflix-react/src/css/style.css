@@ -20,6 +20,9 @@ body {
   justify-content: space-between;
   margin: 20px;
 }
+.row-container {
+  margin: 20px;
+}
 /* all styling copied from Vanilla Netflix project */
 nav-link {
   color: rgb(202, 202, 202) !important;
@@ -91,7 +94,9 @@ nav-link {
 .movie-cover {
   transition: 0.4s ease-in-out;
   cursor: pointer;
-  width: 97%;
+
+  object-fit: contain;
+
   opacity: 0.6;
 }
 .movie-cover:hover {
