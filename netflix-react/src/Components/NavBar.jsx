@@ -21,7 +21,7 @@ class NavBar extends Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto text-white">
               <Nav.Link href="#features" className="mr-auto text-white">
-                Features
+                Home
               </Nav.Link>
               <Nav.Link href="#pricing" className="text-white">
                 Tv Shows

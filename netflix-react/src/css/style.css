@@ -1,6 +1,3 @@
-* {
-  color: white;
-}
 body {
   background-color: #141414;
   color: white;
@@ -22,6 +19,22 @@ body {
 }
 .row-container {
   margin: 20px;
+}
+.marg_left {
+  line-height: 16px;
+  margin-left: 12px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.marg_right {
+  margin-right: 12px;
 }
 /* all styling copied from Vanilla Netflix project */
 nav-link {

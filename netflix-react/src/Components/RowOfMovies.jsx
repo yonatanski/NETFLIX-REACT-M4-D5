@@ -30,7 +30,12 @@ class RowOfMovies extends Component {
           <Row className=" d-flex row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 text-center">
             {this.state.movies.Search &&
               this.state.movies.Search.slice(0, 6).map((movie) => (
-                <SingleMovie img={movie.Poster} className="p-3" />
+                <SingleMovie
+                  img={movie.Poster}
+                  title={movie.Title}
+                  id={movie.imdbID}
+                  className="p-3"
+                />
               ))}
           </Row>
         </div>
