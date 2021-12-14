@@ -9,7 +9,7 @@ class NavBar extends Component {
   render() {
     return (
       <>
-        <Navbar collapseOnSelect expand="lg" className="">
+        <Navbar collapseOnSelect expand="lg" className="sticky-top">
           <Navbar.Brand href="#home">
             <img
               src={NetflixLogo}
