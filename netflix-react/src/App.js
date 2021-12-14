@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar"
 import Header from "./Components/Header"
 import RowOfMovies from "./Components/RowOfMovies"
 import Banner from "./Components/Banner"
+import Footer from "./Components/Footer"
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <RowOfMovies title="Star Wars" />
         <RowOfMovies title="Harry Potter" />
         <RowOfMovies title="The Avengers" />
+        <Footer />
       </div>
     </div>
   )
